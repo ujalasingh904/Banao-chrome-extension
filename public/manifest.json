@@ -3,15 +3,12 @@
     "name": "Tab Title Fetcher",
     "version": "1.0",
     "action": {
-      "default_popup": "popup/index.html",
+      "default_popup": "index.html",
       "default_icon": "icon.png"
     },
     "permissions": [
       "tabs"
     ],
-    "background": {
-      "service_worker": "background.js"
-    },
     "icons": {
       "128": "icon.png"
     }
